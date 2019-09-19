@@ -67,8 +67,6 @@
 	android:text="Login"
 	android:textSize="18sp"
 	android:fontFamily="@font/montserrat_light"
-	android:onClick="clickLogin"
-	/>
-
+	android:onClick="clickLogin" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

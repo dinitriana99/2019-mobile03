@@ -14,7 +14,7 @@ public class ResetPasswordActivity extends AppCompatActivity {
 		setContentView(R.layout.activity_reset_password);
 	}
 
-	public void postChangePassword(View view) {
+	public void postPassword(View view) {
 		Intent intent = new Intent(this, SuccessResetPasswordActivity.class);
 		startActivity(intent);
 	}
